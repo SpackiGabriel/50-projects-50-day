@@ -59,3 +59,18 @@ body {
     opacity: 1;
     transition: 2s;
 }
+
+@media (max-width: 480px) {
+    .l-container {
+        width: 95%;
+    }
+
+    .container__panel {
+        width: 30%;
+    }
+
+    .container__panel:nth-of-type(4),
+    .container__panel:nth-of-type(5) {
+        display: none;
+    }
+}
